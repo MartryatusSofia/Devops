@@ -1,0 +1,13 @@
+node_modules
+dist
+.DS_Store
+*.log
+.vite
+.wrangler
+
+# Env files — .env is gitignored; .env.example + .env.production are committed
+# (.env.production contains only public values: anon key + URLs).
+.env
+.env.*
+!.env.example
+!.env.production
